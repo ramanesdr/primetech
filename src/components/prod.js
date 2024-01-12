@@ -3,14 +3,20 @@ import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import Incotex300 from '../images/Incotex-133.png'
 import Incotex600 from '../images/incotex-600.png'
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row'
+import Col from 'react-bootstrap/Col'
+import Certif from '../images/certf.jpg'
 
 
 function prod() {
   return (
-    <div className=' m-5 prod'>
-        <div className='row'>
-            <div data-aos="fade-up" className='col-6 d-flex justify-content-center'>
-            <Card style={{ width: '25rem' }}>
+    <Container className='m-5 prod'>
+        <Row>
+            <Col sm={12} md={6} data-aos="fade-up">
+            
+            <Card className='car' style={{ width: '25rem' }}>
+              
       <Card.Img className=' cardImg' variant="top" src={Incotex300} alt=''/>
       <Card.Body>
         <Card.Title>Incotex 133</Card.Title>
@@ -21,9 +27,11 @@ function prod() {
         <Button variant="primary">Details</Button>
       </Card.Body>
     </Card>
-            </div>
-            <div data-aos="fade-up" className='col-6 d-flex justify-content-center'>
-            <Card style={{ width: '25rem' }}>
+            </Col>
+            <Col sm={12} md={6} data-aos="fade-up">
+          
+            <Card className='car' style={{ width: '25rem' }}>
+             
       <Card.Img className=' cardImg' variant="top" src={Incotex600} alt=''/>
       <Card.Body>
         <Card.Title>Incotex 600 MCF</Card.Title>
@@ -34,10 +42,10 @@ function prod() {
         <Button variant="primary">Details</Button>
       </Card.Body>
     </Card>
-            </div>
-        </div>
+            </Col>
+        </Row>
       
-    </div>
+    </Container>
   )
 }
 

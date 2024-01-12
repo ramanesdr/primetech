@@ -10,6 +10,17 @@ body{
 .logo{
   width: 15%;
 }
+.cert{
+  width: 40%;
+  margin-bottom: -20%;
+  margin-right: -70%;
+  z-index: 1;
+  
+}
+.car{
+  background-color: #ffb301;
+  color: white;
+}
 .navli{
   color: #ffb301;
   text-decoration: none;
@@ -42,6 +53,8 @@ padding: 3em ;
 footer{
   background-color: #007aff;
   color: #ffb301;
+  border-top: 4px solid #ffb301 ;
+  padding-top: 2em;
 }
 .lifoot{
   list-style: none;
@@ -54,8 +67,9 @@ footer{
   margin-top: -50%;
 }
 .carb{
-  height: 15em;
+  height: 18em;
   border-bottom: 4px solid #ffb301;
+  margin-bottom: 3em !important;
 }
 .log{
   margin: 2em 0em;
@@ -73,8 +87,11 @@ i{
   margin: 1em;
   display: flex;
 }
-/*footer{
-  background-image: url(../src/images/logo.jpg);
-  transform: rotate(45deg);
-  background-size: 70%;
-}*/
+@media screen and (max-width: 500px){
+  .car{
+    width: 18rem !important;
+    margin: auto;
+    margin-bottom: 1em;
+    
+  }
+}
