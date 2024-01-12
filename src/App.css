@@ -1,38 +1,80 @@
+body{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.logo{
+  width: 15%;
+}
+.navli{
+  color: #ffb301;
+  text-decoration: none;
+  font: 1.5em bold;
+  margin: 0.60em;
+}
+.carousel{
+  height: 70vh;
+  width: 100%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.navbar-collapse{
+  margin-left: 40%;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.cardImg{
+  height: 15em;
+}
+.p{
+  width: 80%;
+margin: auto;
+}
+.prod{
+ justify-content: center !important;
+ align-items: center !important;
+ margin: auto !important;
+padding: 3em ;
+ width: 100% !important;
+  
+}
+footer{
+  background-color: #007aff;
+  color: #ffb301;
+}
+.lifoot{
+  list-style: none;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.iconcard{
+  background-color: #ffb301;
+  padding: 1em;
+  border-radius: 50%;
+  margin-top: -50%;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.carb{
+  height: 15em;
+  border-bottom: 4px solid #ffb301;
 }
+.log{
+  margin: 2em 0em;
+  width: 50%;
+}
+i{
+  font-size: 2em;
+  margin: 10px;
+  text-align: center;
+}
+.navl{
+  color: #ffb301;
+  text-decoration: none;
+  font: 1.5em bold;
+  margin: 1em;
+  display: flex;
+}
+/*footer{
+  background-image: url(../src/images/logo.jpg);
+  transform: rotate(45deg);
+  background-size: 70%;
+}*/
